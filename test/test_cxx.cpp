@@ -1,4 +1,4 @@
-// RUN: clang++ -fsyntax-only -Xclang -verify %s
+// RUN: clang++ -fsyntax-only -Xclang -verify %s -I/usr/include/x86_64-linux-gnu/c++/5/
 // expected-no-diagnostics
 
 #include <vector>

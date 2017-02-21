@@ -33,7 +33,7 @@ You can now use the ACCEPT toolchain to try building your application. Just type
 $ accept -f build
 ```
 
-(The `-f` flag avoids memoization—see the [tool documentation](cli.md).) This command shows the output of the build process, including any errors emitted by the compiler.
+(The `-f` flag avoids memorization—see the [tool documentation](cli.md).) This command shows the output of the build process, including any errors emitted by the compiler.
 
 Like most `accept` commands, `accept build` uses the application in the working directory by default. You can specify a path as an argument to build something else.
 
